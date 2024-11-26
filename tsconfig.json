@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "target": "ES5",
+    "module": "ES2015",
+    "jsx": "react-jsx",
+    "moduleResolution": "Node10",
+    "lib": ["ES2023", "DOM"],
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
